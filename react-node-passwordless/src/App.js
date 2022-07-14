@@ -9,7 +9,7 @@ import * as onz from 'onz-auth';
 
 // Initialisation
 const auth = new onz.Auth({
-  clientID: 'public-demo-c2a958bba7', // Options
+  clientID: 'public-demo-c2a958bba7', // public demo client id
   containerID: 'myLoginDiv', // Optional, defaults to 'container'
   isIframe: false, // Optional, defaults to 'false'
 });

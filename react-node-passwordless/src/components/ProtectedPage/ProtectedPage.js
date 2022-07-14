@@ -18,6 +18,7 @@ async function loadServerToken(accessToken) {
 
 export default function ProtectedPage({ user }) {
     const [ adminInfo, setAdminInfo ] = useState(null);
+    const email = user ? user.idTokenJwt.email : '';
 
     useEffect(() => {
         if (user && !adminInfo) {
@@ -30,6 +31,7 @@ export default function ProtectedPage({ user }) {
     return (
         <>
             <h2>Protected Page</h2>
+            <div>Logged in user: {email}</div>
             <h3>Verified User From ProtectedAPI</h3>
             <div>
                 {JSON.stringify(adminInfo)}
