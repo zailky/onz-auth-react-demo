@@ -1,6 +1,7 @@
 # onz-auth-react-demo
 Demo project for [OnzAuth](https://tryonzauth.com) Passwordless WebAuthn Authentication
 
+[<img src="logotextdark.jpg" alt="OnzAuth" width="300"/>](https://tryonzauth.com)
 
 
 This Demo Project demonstrates how to implement OnzAuth with Biometric Enabled on a ReactJS SPA Frontend with a NodeJs Express Api Server.
