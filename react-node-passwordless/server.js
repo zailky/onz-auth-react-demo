@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const jwt = require('jsonwebtoken');
 const jwksClient = require('jwks-rsa');
-const VALID_CLIENT_ID = 'public-demo-c2a958bba7';
+const VALID_CLIENT_ID = 'public-demo-2e16de3b74';
 
 app.use(cors());
 
